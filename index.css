@@ -1,4 +1,4 @@
-@import url;('https://fonts.googleapis.com/css2?family=Chelsea+Marketfamily=Roboto+Mono&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@900&display=swap');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -38,7 +38,7 @@ body{
 }
 
 h1{
-    font-family:'Chelsea Market',;
+    font-family:'Chelsea Market', cursive;
     font-size:6rem;
 }
 
@@ -132,11 +132,12 @@ align-items:center;
 }
 
 .footer-image{
-    /*background-image:("assests/footer-img.jpg");*/
-    background-size:cover;
+    background-image:url("assets/footer_img.jpg");
+    object-fit:cover;
+    object-position:100% 15%;
     background-repeat:no-repeat;
     width:100%;
-    height:10%; 
+    height:20rem; 
 }
 
 footer{
